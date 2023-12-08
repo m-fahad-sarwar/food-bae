@@ -1,0 +1,6 @@
+.heroSecion{
+   background-image: url(/hero.webp);
+   background-repeat: no-repeat;
+   background-size:   cover;
+   height: calc(100vh - 82px);
+}
