@@ -2,5 +2,27 @@
    background-image: url(/hero.webp);
    background-repeat: no-repeat;
    background-size:   cover;
+   background-position: right;
    height: calc(100vh - 82px);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0px 6%;
+}
+.heroSecion h1{
+ font-size: 75px;
+ color: var(--secondary-color);
+ font-weight: 400;
+ margin: 0px;
+ line-height: 110px;
+ margin-bottom: 40px;
+}
+
+@media screen and (max-width: 770px) {
+
+   .heroSecion h1{
+      font-size: 48px;
+      line-height: 70px;
+   }
+   
 }

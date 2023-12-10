@@ -8,10 +8,15 @@ html {
 }
 
 :root {
-  --primary-color: #EF4E24;
+  --primary-color: #ef4e24;
   --secondary-color: white;
   --light-grey: #00000099;
+  --light-green: #1B592C;
+  --max-width: 1080px;
 }
 a.active {
   color: var(--primary-color) !important;
+}
+.primaryColor {
+  color: var(--primary-color);
 }
