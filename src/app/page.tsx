@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import HeroSection from "@/components/heroSection/HeroSection";
+import FooterSection from "@/components/footerSection/FooterSection";
 
 const features = [
   { title: "Taste Authentic Flavours of India", image: "/Authentic.webp" },
@@ -153,10 +154,13 @@ export default function Home() {
             <h1>
               We Also Provide <br /> Catering Services
             </h1>
-            <a href="#">Book For Catering</a>
+            <a href="#">
+              Book For Catering <img src="/right.svg" />
+            </a>
           </div>
         </div>
       </div>
+      <FooterSection />
     </main>
   );
 }

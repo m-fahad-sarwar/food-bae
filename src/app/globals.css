@@ -11,7 +11,8 @@ html {
   --primary-color: #ef4e24;
   --secondary-color: white;
   --light-grey: #00000099;
-  --light-green: #1B592C;
+  --light-green: #1b592c;
+  --footer: #2c2c2c;
   --max-width: 1080px;
 }
 a.active {

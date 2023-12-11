@@ -20,10 +20,10 @@ export default function Header() {
             <Link href="/" className={`${styles.link} active`}>
               Home
             </Link>
-            <Link href="/" className={styles.link}>
+            <Link href="/about" className={styles.link}>
               About Us
             </Link>
-            <Link href="/" className={styles.link}>
+            <Link href="/contact" className={styles.link}>
               Contact Us
             </Link>
           </div>

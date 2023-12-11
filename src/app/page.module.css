@@ -157,13 +157,54 @@
   display: flex;
   align-items: center;
 }
+.catering {
+  margin: auto;
+  width: 80%;
+}
 .catering h1 {
   font-size: 75px;
   color: var(--secondary-color);
   font-weight: 400;
   margin: 0px;
   line-height: 110px;
+  margin-bottom: 120px;
 }
+.catering a {
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  border: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
+  padding: 11px 20px;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  max-width: 175px;
+  overflow: hidden;
+  max-height: 25px;
+  display: block;
+  position: relative;
+}
+.catering a:hover {
+  border-color: transparent;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  max-width: 200px;
+}
+.catering a:hover img {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: all 0.3s ease-in-out;
+}
+.catering img {
+  height: 20px;
+  width: auto;
+  opacity: 0;
+  transform: translateX(-20px);
+  position: absolute;
+  margin-left: 10px;
+  top: 13px;
+}
+
 @media (max-width: 980px) {
   .exploreContainer {
     flex-direction: column;
@@ -200,5 +241,9 @@
   .riderGuidelines h4,
   .chefsGuidelines h4 {
     font-size: 18px;
+  }
+  .catering h1 {
+    font-size: 25px;
+    line-height: 35px;
   }
 }
