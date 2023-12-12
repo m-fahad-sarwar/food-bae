@@ -4,10 +4,9 @@ import HeroSection from "@/components/heroSection/HeroSection";
 import FooterSection from "@/components/footerSection/FooterSection";
 
 const features = [
-  { title: "Taste Authentic Flavours of India", image: "/Authentic.webp" },
+  { title: "Taste Authentic Flavours in Canada", image: "/Authentic.webp" },
   { title: "Freshly Prepared Always", image: "/Fresh.webp" },
   { title: "Cleanliness & Hygiene Guaranteed", image: "/Hygiene.webp" },
-  { title: "Try 1000+ Regional Dishes.", image: "/regional-dishes.webp" },
   { title: "Highest rating by consumers", image: "/Highest-Rating.webp" },
 ];
 
@@ -72,10 +71,6 @@ export default function Home() {
               <h5>{feature.title}</h5>
             </div>
           ))}
-          <p>
-            Noida | G.Noida | Ghaziabad | Delhi | Gurgaon | Mumbai | Hyderabad |
-            Bengaluru
-          </p>
         </div>
         <img
           src={"/app-screens.webp"}
@@ -87,11 +82,8 @@ export default function Home() {
         <div className={styles.bgColor}>
           <div className={styles.textContainer}>
             <p>
-              Homefoodi is a reliable and convenient Home food delivery service
-              that operates in several major Indian cities, including Noida,
-              Delhi, Ghaziabad, Gurgaon, Hyderabad, Bangalore, and Mumbai. With
-              Homefoodi, you can enjoy a delicious and healthy meal delivered
-              straight to your doorstep without having to leave your house.
+              Food Bae is a reliable and convenient Home food delivery service.
+              With Food Bae, you can enjoy a delicious and healthy meal.
             </p>
             <p>
               The service is designed to cater to busy individuals who don’t
@@ -99,18 +91,17 @@ export default function Home() {
               meal without having to prepare it themselves.
             </p>
             <p>
-              it themselves. Homefoodi’s network of experienced and skilled home
-              chefs prepare the meals with fresh and high-quality ingredients,
-              ensuring that each meal is tasty and healthy.Homefoodi offers a
-              diverse menu of Indian and international dishes, with options for
-              vegetarian and non-vegetarian meals.
+              Food Bae&apos; network of experienced and skilled home chefs
+              prepare the meals with fresh and high-quality ingredients,
+              ensuring that each meal is tasty and healthy.Food Bae offers a
+              diverse menu of dishes, with options for dietary restrictions.
             </p>
             <p>
               Our <span className="primaryColor">Home Food Delivery</span>{" "}
               service also provides customized meal plans to cater to specific
               dietary needs.With reliable service and high-quality food,
-              Homefoodi is the perfect solution for anyone looking for a
-              convenient and healthy Online Food Delivery in these cities.
+              Food Bae is the perfect solution for anyone looking for a
+              convenient and healthy Food.
             </p>
           </div>
         </div>
@@ -122,18 +113,6 @@ export default function Home() {
           <img src="/safe.webp" />
         </div>
         <div className={styles.guidelinesContainer}>
-          <div className={styles.riderGuidelines}>
-            <h4>RIDERS DELIVERY GUIDELINES.</h4>
-            {riderGuidelines.map((guideline) => (
-              <div key={guideline.title} className={styles.guideline}>
-                <img src={guideline.img} alt={guideline.title} />
-                <div>
-                  <h5>{guideline.title}</h5>
-                  <p>{guideline.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
           <div className={styles.chefsGuidelines}>
             <h4>HOME CHEFS COOKING GUIDELINES.</h4>
             {chefsGuidelines.map((guideline) => (

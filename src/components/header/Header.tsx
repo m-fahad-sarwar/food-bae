@@ -7,7 +7,9 @@ import Script from "next/script";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Image src={"/logo.jpeg"} height={21} width={247} alt="Logo" />
+      <Link href="/">
+        <Image src={"/logo.jpeg"} height={21} width={247} alt="Logo" />
+      </Link>
       <div>
         <input className={styles.checkbox} type="checkbox" name="" id="" />
         <div className={styles.hamburgerLines}>

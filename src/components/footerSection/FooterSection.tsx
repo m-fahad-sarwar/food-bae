@@ -15,7 +15,7 @@ export default function FooterSection(
           <p>
             Yes, we all know, nothing like Ghar Ka Khana but Finding home food
             was never an easy thing. Rejoice! Great News! Now it is with
-            Homefoodi.
+            Food Bae.
           </p>
           <p>
             Now you can get the food as per your taste/requirement from Home
@@ -122,7 +122,7 @@ export default function FooterSection(
       <div className={styles.footer}>
         <div className={styles.footerContainer}>
           <div className={styles.socialLinks}>
-            <img src="/logo.webp" />
+            <img src="/footerSection.png" />
             <ul>
               <li>
                 <a
@@ -187,7 +187,7 @@ export default function FooterSection(
           </div>
         </div>
         <div className={styles.footerContainer}>
-          <p>Homefoodi © 2021 All Rights Reserved.</p>
+          <p>Food Bae © {new Date().getFullYear()} All Rights Reserved.</p>
           <div className={styles.webLinks}>
             <Link href={"/"}>PRIVACY POLICY </Link>
             <Link href={"/"}> USER T&C </Link>

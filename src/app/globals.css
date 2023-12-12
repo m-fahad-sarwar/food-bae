@@ -12,7 +12,8 @@ html {
   --secondary-color: white;
   --light-grey: #00000099;
   --light-green: #1b592c;
-  --footer: #2c2c2c;
+  --green: #399936;
+  --footer: rgb(60, 61, 62);
   --max-width: 1080px;
 }
 a.active {
