@@ -153,4 +153,7 @@
   .contactForm div{
     flex-direction: column;
   }
+  .contactForm div{
+    width: 100%;
+  }
 }
