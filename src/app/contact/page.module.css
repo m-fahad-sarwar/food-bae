@@ -41,7 +41,7 @@
 .contactForm input,
 .contactForm textarea {
   background-color: #eee;
-  width: 100%;
+  width: calc(100% - 32px);
   border-width: 0;
   border-radius: 0;
   color: #999;
@@ -52,7 +52,7 @@
 .contactForm div {
   display: flex;
   gap: 23px;
-  width: calc(100% + 32px);
+  width: 100%;
 }
 .contactForm {
   width: 50%;
@@ -152,8 +152,5 @@
   }
   .contactForm div{
     flex-direction: column;
-  }
-  .contactForm div{
-    width: 100%;
   }
 }
