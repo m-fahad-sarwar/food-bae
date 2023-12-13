@@ -35,11 +35,12 @@
   gap: 5%;
 }
 
-.aimsContainer img {
-  width: 100%;
-  height: auto;
-  max-width: 641px;
-  max-height: 311px;
+.aimsContainer h1 {
+  font-size: 100px;
+  font-weight: 400;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
 }
 
 .aim {

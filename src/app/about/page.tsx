@@ -5,14 +5,12 @@ import styles from "./page.module.css";
 const aims = [
   {
     title: "OUR VISION",
-    description:
-      "Uniting People by Celebrating the Diversity of Traditional Food Culture.",
+    description: "Uniting People by Celebrating the Food Culture.",
     image: "/vission.png",
   },
   {
     title: "OUR MISSION",
-    description:
-      "“GHAR GHAR STARTUP”: Empowering Women to Create a Healthy India.",
+    description: "Healthy home cooked food for everyone",
     image: "/mission.png",
   },
   {
@@ -44,18 +42,18 @@ export default function page() {
             );
           })}
         </div>
-        <img src="/empower.jpeg" alt="Empower Women" />
+       <h1>Empower<br/> Households</h1>
       </div>
       <div className={styles.aboutText}>
         <p>
           <strong>About Us:&nbsp;</strong>
         </p>
         <p>
-          Homefoodi is World’s 1st Mobile Application for Home Food made by
-          Genuine Home Chefs. Homefoodi was started to Create India’s Largest
-          self-employment opportunity for women to earn from home being a Home
-          Chef. Food is life and we are committed to Create a Fit &amp; Healthy
-          India by offering{" "}
+          Food-Bae is Canada 1st Mobile Application for Home Food made by
+          Genuine Home Chefs. Food-Bae was started to Create Largest
+          self-employment opportunity to earn from home being a Home Chef. Food
+          is life and we are committed to Create a Fit &amp; Healthy population
+          by offering{" "}
           <a href="https://homefoodi.com/home-food-delivery-in-pitampura-delhi/">
             Healthy &amp; Hygienic Home Cooked Food
           </a>
@@ -63,28 +61,24 @@ export default function page() {
         </p>
         <p>
           We are reviving the Culture of Home Food by offering people a variety
-          of Traditional cuisines from every state of India.Homefoodi is
+          of Traditional cuisines from every part of the world.Food-Bae is
           enabling Localized Home Food Experiences by delivering a Delicious
           variety of Authentic cuisines cooked by Talented Home Chefs. Home
           Chefs have learned the art of cooking through their unwavering passion
           and coached by their mother and grandmother to sprinkle love in food.
         </p>
         <p>
-          Homefoodi is very selective and responsible in selecting Home Chefs.
-          As a Company Policy, our Chef Enrolment team visits every aspiring
-          Home chef to check for Kitchen hygiene and cleanliness, Food Quality
-          and Packaging standards. Our Team of Food Tasting Experts Upholds our
-          unwavering Customer Promise to serve Delicious and Healthy Food. We
-          are proud that 100% of our Home Chefs are FSSAI Registered.
+          Food-Bae is very selective and responsible in selecting Home Chefs. As
+          a Company Policy, we are committed to hygiene and cleanliness, Food
+          Quality and Packaging standards.We are proud that 100% of our Home
+          Chefs are follow these standards.
         </p>
         <p>
           We enter into an agreement with Home Chefs after they qualify for all
           the Standards of on boarding so that our commitment to Users about
           Food Quality, Health &amp; Hygiene standards is always valued. We are
           Obsessed about Food Quality and as a policy every we call up every
-          Customer to seek their Feedback on Food Delivered. As a practice, Our
-          Home Chefs call up all customers to seek their taste preferences
-          before cooking the Food.
+          Customer to seek their Feedback on Food Delivered.
         </p>
         <p>
           Our Chefs come from all parts of the country and serve their unique
@@ -100,17 +94,16 @@ export default function page() {
           <a href="https://play.google.com/store/apps/details?id=com.homefoodi.user">
             Home Food Every day
           </a>{" "}
-          and Explore the Food Culture of India. We feel Humbled that we are
-          enabling Homemakers to contribute towards Nation Building and
-          overjoyed with our Purpose –
-          <strong>“Ghar Ki Lakshmi Bani Bharat ki Lakshmi”</strong>
+          and Explore our Food Culture. We feel Humbled that we are enabling
+          Homemakers to contribute towards Nation Building and overjoyed with
+          our Purpose.
         </p>
         <p>
           We wish everyone a Healthy Life. Eat Healthy Home Food and Stay Fit.
         </p>
         <p>
           With Gratitude,&nbsp;
-          <strong>Team Homefoodi</strong>
+          <strong>Team Food-Bae</strong>
         </p>
         <p>
           <strong></strong>

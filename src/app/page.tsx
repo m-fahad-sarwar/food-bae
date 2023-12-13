@@ -10,39 +10,12 @@ const features = [
   { title: "Highest rating by consumers", image: "/Highest-Rating.webp" },
 ];
 
-const riderGuidelines = [
-  {
-    title: "SANITIZATION STANDARDS",
-    description:
-      "All Delivery Riders have been trained to maintained high cleanliness standards and they carry a Kit of Mask, Hand Sanitizer, Gloves and Thermometer.",
-    img: "/SANITIZATION-STANDARDS.webp",
-  },
-  {
-    title: "CONTACTLESS HOME FOOD DELIVERY",
-    description:
-      "Every Food Package is picked up and delivered without any contact with the Home Chef and Customer. We follow a Contactless delivery policy.",
-    img: "/CONTACTLESS-DELIVERY.webp",
-  },
-  {
-    title: "RIDER SUPERVISION",
-    description:
-      "All the Delivery Riders are supervised daily for their temperature readings and conformity to Wearing a Mask, Hygiene and social distancing norms.",
-    img: "RIDER-SUPERVISION.webp",
-  },
-];
-
 const chefsGuidelines = [
   {
     title: "CLEANING & SANITIZATION",
     description:
       "Every Home chef ensures that hands are washed regularly every 15 minutes and their Home Kitchen is cleaned and sanitized 2 times daily.",
     img: "/CLEANING-SANITIZATION.webp",
-  },
-  {
-    title: "MASK & SOCIAL DISTANCING",
-    description:
-      "All the Home Chefs usually don’t move of their homes. They wear a Mask and maintain social distancing of 6 Feet if they meet anyone.",
-    img: "/MASK-SOCIAL-DISTANCING.webp",
   },
   {
     title: "HEATHY & FRESHLY PREPARED",
@@ -91,7 +64,7 @@ export default function Home() {
               meal without having to prepare it themselves.
             </p>
             <p>
-              Food Bae&apos; network of experienced and skilled home chefs
+              Food Bae&apos;s network of experienced and skilled home chefs
               prepare the meals with fresh and high-quality ingredients,
               ensuring that each meal is tasty and healthy.Food Bae offers a
               diverse menu of dishes, with options for dietary restrictions.

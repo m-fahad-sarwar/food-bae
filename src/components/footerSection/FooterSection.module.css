@@ -24,7 +24,7 @@
 }
 .downloadApp img {
   margin-top: 5.82%;
-  width: 141px;
+  width: 281px;
   height: auto;
 }
 .downloadsButton a {
@@ -137,37 +137,6 @@
   background-position: center;
 }
 
-.locations {
-  background-image: url("/bgLoactions.svg");
-  padding: 81px 0px;
-}
-.locationsChild h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin: 0px;
-  padding: 0px;
-  padding-bottom: 10px;
-  margin-bottom: 2.75%;
-  text-align: center;
-  color: var(--primary-color);
-}
-.locationsChild a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-.locationsChild p {
-  font-size: 20px;
-  margin: 0px;
-  padding: 0px;
-  line-height: 26px;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 700;
-}
-.locationsChild {
-  width: 80%;
-  margin: auto;
-}
 .footer {
   background-color: var(--footer);
 }

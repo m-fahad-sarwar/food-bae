@@ -13,7 +13,7 @@ export default function FooterSection(
         <div className={styles.downloadApp}>
           <h3>Download Our App</h3>
           <p>
-            Yes, we all know, nothing like Ghar Ka Khana but Finding home food
+            Yes, we all know, nothing like home cooked food but Finding home food
             was never an easy thing. Rejoice! Great News! Now it is with
             Food Bae.
           </p>
@@ -22,7 +22,7 @@ export default function FooterSection(
             Chef’s Kitchen and that too freshly prepared. Choose from a
             countless variety of Home Chefs from Food to Bakers.
           </p>
-          <img src="/fav.webp" />
+          <img src="/logo.jpeg" />
           <div className={styles.downloadsButton}>
             <a href="#">
               <img src="/app.webp" />
@@ -95,28 +95,6 @@ export default function FooterSection(
               </li>
             </ul>
           ) : null}
-        </div>
-      </div>
-      <div className={styles.locations}>
-        <div className={styles.locationsChild}>
-          <h2>
-            <a href="#">Noida </a>| <a href="#">Greater Noida </a>|{" "}
-            <a href="#">Ghaziabad </a>| <a href="#">Delhi</a> |
-            <a href="#">Gurgaon </a>| <a href="#">Bengaluru </a>|
-            <a href="#">Hyderabad | </a>
-            <a href="#">Mumbai</a>
-          </h2>
-          <p>
-            {linksArray.map((link, i) => (
-              <>
-                {" "}
-                <a key={i} href={link.link}>
-                  {link.label}
-                </a>
-                {` ${i === linksArray.length - 1 ? "" : "|"}`}
-              </>
-            ))}
-          </p>
         </div>
       </div>
       <div className={styles.footer}>
