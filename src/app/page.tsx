@@ -81,7 +81,7 @@ export default function Home() {
       </div>
       <div className={styles.safetyStandards}>
         <div className={styles.saftetyHeading}>
-          <img src="/fav.webp" />
+          <img src="/logo.jpeg" className={styles.logoImage} />
           <h2>Our 100% Safety Standards</h2>
           <img src="/safe.webp" />
         </div>
