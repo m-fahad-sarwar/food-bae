@@ -28,6 +28,9 @@ export default function Header() {
             <Link href="/contact" className={styles.link}>
               Contact Us
             </Link>
+            <Link href="/cook-with-us" className={styles.link}>
+              Cook with us
+            </Link>
           </div>
         </div>
       </div>
