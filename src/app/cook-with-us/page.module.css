@@ -51,7 +51,8 @@
   align-items: center;
 }
 .contactForm input,
-.contactForm textarea {
+.contactForm textarea,
+.contactForm .select{
   background-color: #eee;
   width: calc(100% - 32px);
   border-width: 0;
@@ -60,6 +61,18 @@
   font-size: 14px;
   padding: 16px;
   margin-bottom: 23px;
+}
+
+.contactForm .select {
+  padding: 15px 16px;
+}
+.contactForm select{
+  background-color: #eee;
+  width: 100%;
+  border-width: 0;
+  border-radius: 0;
+  color: #999;
+  font-size: 14px;
 }
 .contactForm div {
   display: flex;
@@ -70,7 +83,8 @@
   width: 50%;
 }
 .contactForm input:focus,
-.contactForm textarea:focus {
+.contactForm textarea:focus ,
+.contactForm select:focus {
   outline: none;
 }
 .contactForm textarea {

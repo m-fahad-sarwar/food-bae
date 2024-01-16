@@ -3,26 +3,35 @@ import React from "react";
 import styles from "./page.module.css";
 
 const chefsGuidelines = [
-    {
-      title: "Build your business",
-      description:
-        "Easily design your custom storefront and start selling to new and existing customers. Get marketing, menu building and customer support, and access the Cookin Marketplace in participating locations.",
-      img: "/CLEANING-SANITIZATION.webp",
-    },
-    {
-      title: "Be your own boss",
-      description:
-        "Create your own menu and choose only the days and hours that work for you. You’ve got total control over how, when and where you do your thing.",
-      img: "/HEATHY-FRESHLY-PREPARED.webp",
-    },
-    {
-      title: "We’ll take care of the logistics",
-      description:
-        "We manage the delivery, payment processing, and customer support, so you can enjoy getting paid to cook for hungry customers without the stress.",
-      img: "/CONTACTLESS-DELIVERY.webp",
-    },
-  ];
-  
+  {
+    title: "Build your business",
+    description:
+      "Easily design your custom storefront and start selling to new and existing customers. Get marketing, menu building and customer support, and access the Cookin Marketplace in participating locations.",
+    img: "/CLEANING-SANITIZATION.webp",
+  },
+  {
+    title: "Be your own boss",
+    description:
+      "Create your own menu and choose only the days and hours that work for you. You’ve got total control over how, when and where you do your thing.",
+    img: "/HEATHY-FRESHLY-PREPARED.webp",
+  },
+  {
+    title: "We’ll take care of the logistics",
+    description:
+      "We manage the delivery, payment processing, and customer support, so you can enjoy getting paid to cook for hungry customers without the stress.",
+    img: "/CONTACTLESS-DELIVERY.webp",
+  },
+];
+
+const cuisineOptions = [
+  { label: "Italian", value: "italian" },
+  { label: "Japanese", value: "japanese" },
+  { label: "Mexican", value: "mexican" },
+  { label: "Indian", value: "indian" },
+  { label: "Mediterranean", value: "mediterranean" },
+  { label: "Chinese", value: "chinese" },
+  { label: "Thai", value: "thai" },
+];
 
 export default function page() {
   return (
@@ -46,9 +55,19 @@ export default function page() {
             <input type="text" placeholder="Last Name" />
           </div>
           <input type="email" placeholder="Phone Number" />
-          <input type="email" placeholder="Email Address" />
-          <input type="email" placeholder="Zip / Postal Code" />
-          <input type="text" placeholder="Cuisine" />
+          <input type="text" placeholder="Email Address" />
+          <input type="text" placeholder="Address" />
+          <input type="text" placeholder="City" />
+          <div className={styles.select}>
+            <select>
+              <option value="">Cuisine</option>
+              {cuisineOptions.map((option) => (
+                <option key={option.value} value={option.value}>
+                  {option.label}
+                </option>
+              ))}
+            </select>
+          </div>
           <p style={{ textAlign: "left" }}>
             I agree to allow my phone number to be used for calls or texts
             regarding my application. Message & data rates may apply.
